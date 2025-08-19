@@ -1,0 +1,14 @@
+langchain
+langgraph
+langchain-core
+langchain-community
+groq
+langchain-groq
+langchain-tavily
+pydantic
+python-dotenv
+grandalf
+langchain-mcp-adapters
+mcp
+langchain-google-genai
+chromadb
