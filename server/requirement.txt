@@ -12,3 +12,4 @@ langchain-mcp-adapters
 mcp
 langchain-google-genai
 chromadb
+fastapi
