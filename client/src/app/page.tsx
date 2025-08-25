@@ -71,7 +71,7 @@ const Home = () => {
         ]);
 
         // Create URL with checkpoint ID if it exists
-        const apiBase = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:8000';
+        const apiBase = 'https://askora-server-latest.onrender.com';
         let url = `${apiBase}/chat_stream/${encodeURIComponent(userInput)}`;
         if (checkpointId) {
           url += `?checkpoint_id=${encodeURIComponent(checkpointId)}`;
