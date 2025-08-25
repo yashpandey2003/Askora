@@ -13,3 +13,4 @@ mcp
 langchain-google-genai
 chromadb
 fastapi
+uvicorn[standard]
